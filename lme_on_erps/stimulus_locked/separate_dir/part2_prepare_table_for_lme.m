@@ -51,4 +51,4 @@ for sj = 1:numel(d)
     end
 end
 
-save('all_subjects_ERP_lme_table_separated_direction.mat', 'all_subject_tables');
+save('all_subjects_stimlock_ERP_lme_table_separated_direction.mat', 'all_subject_tables');

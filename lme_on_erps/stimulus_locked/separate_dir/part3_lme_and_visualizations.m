@@ -28,8 +28,8 @@ load([HBNpath filesep 'chanlocs105.mat']);
 chanlocs = chanlocs105;
 
 %% data
-addpath('\\psyger-stor02.d.uzh.ch\methlab\Neurometric\Anti_newest\THETAproject\martyna\scripts_for_running_tfr_analysis\lme_on_erps\stimulus_locked')
-load('all_subjects_ERP_lme_table_separated_direction.mat')
+addpath('\\psyger-stor02.d.uzh.ch\methlab\Neurometric\Anti_newest\THETAproject\martyna\scripts_for_running_tfr_analysis\lme_on_erps\stimulus_locked\separate_dir')
+load('all_subjects_stimlock_ERP_lme_table_separated_direction')
 
 all_subjects = all_subject_tables.SubjectID;
 all_ag_rep = all_subject_tables.AgeGroup;
